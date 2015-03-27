@@ -1,12 +1,12 @@
 // for navigator language
 var lang = window.navigator.language;
 // you can change the language
-// var lang = 'en';
+ var lang = 'fr';
 
 //change weather params here:
 //units: metric or imperial
 var weatherParams = {
-    'q':'Baarn,Netherlands',
+    'q':'Quebec,Canada',
     'units':'metric',
     'lang':lang
 };
@@ -18,19 +18,19 @@ var feed = 'http://feeds.nos.nl/nosjournaal?format=rss';
 
 // compliments:
 var morning = [
-            'Good morning, handsome!',
-            'Enjoy your day!',
-            'How was your sleep?'
+            'Bon matin, bel homme!',
+            'Profites bien de ta journée!',
+            'Bien dormi?'
         ];
         
 var afternoon = [
-            'Hello, beauty!',
-            'You look sexy!',
-            'Looking good today!'
+            'Bonjour, mon beau!',
+            'Tu paraît bien!',
+            'Tu sembles en forme!'
         ];
        
 var evening = [
-            'Wow, you look hot!',
-            'You look nice!',
-            'Hi, sexy!'
+            'Wow, tu es hot!',
+            'Tu es beau!',
+            'Bonne soirée, sexy!'
         ];
